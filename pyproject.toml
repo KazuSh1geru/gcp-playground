@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "gcp-playground"
+version = "0.1.0"
+description = ""
+authors = ["Kazushi Takakusagi <kazushi.takakusagi@gmail.com>"]
+readme = "README.md"
+packages = [{include = "gcp_playground"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+functions-framework = "^3.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
