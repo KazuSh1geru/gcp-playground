@@ -4,6 +4,8 @@ Google Cloud のリソースで遊ぼう。
 ## Cloud Functions
 
 ### デプロイ（gcloud コマンド）
+
+hello_get 関数をデプロイする。
 ```bash
 gcloud functions deploy python-http-function \
 --gen2 \
